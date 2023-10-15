@@ -71,15 +71,15 @@ public class Main {
         System.out.println("");
 
         System.out.println("Задача №8");
-
         var totalOpeningHours1 = 640;
         System.out.println("Total Opening Hours = " + totalOpeningHours1 + " часов работы ");
         var openHours1 = 8;
         System.out.println("Open Hours = " + "по " + openHours1 + " часов ");
         var totalEmployees1 = totalOpeningHours1 / openHours1;
-        System.out.println("TotalEmployees = " + "на " + totalEmployees1 + " человек" );
+        System.out.println("TotalEmployees = " + "на " + totalEmployees1 + " человек");
 
         System.out.println("");
+
         var totalEmployees2 = 94;
         System.out.println("TotalEmployees = " + "на " + totalEmployees2 + " человек");
         var openHours2 = 8;
