@@ -65,26 +65,26 @@ public class Main {
         System.out.println("");
 
         System.out.println("Задача №7");
-        var RemainderDivision = Math.abs(boxer2 % boxer1);
-        System.out.println("RemainderDivision = " + RemainderDivision);
+        var remainderDivision = Math.abs(boxer2 % boxer1);
+        System.out.println("RemainderDivision = " + remainderDivision);
 
         System.out.println("");
 
         System.out.println("Задача №8");
 
-        var TotalOpeningHours1 = 640;
-        System.out.println("Total Opening Hours = " + TotalOpeningHours1 + " часов работы ");
-        var OpenHours1 = 8;
-        System.out.println("Open Hours = " + "по " + OpenHours1 + " часов ");
-        var TotalEmployees1 = TotalOpeningHours1 / OpenHours1;
-        System.out.println("TotalEmployees = " + "на " + TotalEmployees1 + " человек" );
+        var totalOpeningHours1 = 640;
+        System.out.println("Total Opening Hours = " + totalOpeningHours1 + " часов работы ");
+        var openHours1 = 8;
+        System.out.println("Open Hours = " + "по " + openHours1 + " часов ");
+        var totalEmployees1 = totalOpeningHours1 / openHours1;
+        System.out.println("TotalEmployees = " + "на " + totalEmployees1 + " человек" );
 
         System.out.println("");
-        var TotalEmployees2 = 94;
-        System.out.println("TotalEmployees = " + "на " + TotalEmployees2 + " человек");
-        var OpenHours2 = 8;
-        System.out.println("Open Hours = " + "по " + OpenHours2 + " часов");
-        var TotalOpeningHours2 = TotalEmployees2 * OpenHours2;
-        System.out.println("Total Opening Hours = " + TotalOpeningHours2 + " часов работы");
+        var totalEmployees2 = 94;
+        System.out.println("TotalEmployees = " + "на " + totalEmployees2 + " человек");
+        var openHours2 = 8;
+        System.out.println("Open Hours = " + "по " + openHours2 + " часов");
+        var totalOpeningHours2 = totalEmployees2 * openHours2;
+        System.out.println("Total Opening Hours = " + totalOpeningHours2 + " часов работы");
     }
 }
